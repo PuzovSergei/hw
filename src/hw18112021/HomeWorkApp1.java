@@ -25,7 +25,8 @@ public class HomeWorkApp1 {
 
         System.out.println("Task №4. Input number: ");
         int e = in.nextInt();
-        String name = "Привет";
+        in.nextLine();
+        String name = in.nextLine();
         Task4(e, name);
 
         System.out.print("Task №5. Input the year: ");
